@@ -1,0 +1,448 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-container{
+  background-color: white;
+
+  box-shadow: 0px 0px 60px 4px #e0e0e0 inset;
+  -webkit box-shadow: 0px 0px 40px 4px #e0e0e0 inset;
+  -moz-box-shadow: 0px 0px 40px 4px #e0e0e0 inset;
+
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+
+ }
+
+
+.menu{
+  font-weight: bold;
+  color: black;
+  display: flex;
+  margin-left: auto;
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+  justify-content: flex-end;
+}
+
+.email{
+  margin-right: 580px;
+  float: left;
+
+}
+
+img{
+  width: 25px;
+  height: 25px;
+
+  float: left;
+  align-items: flex-start;
+
+}
+.email a, img{
+  position:relative;
+  margin-right: 25px;
+  top: 0px;
+}
+
+.email a:hover{
+  top: 0px;
+}
+
+
+.linkedin img{
+  position:relative;
+  margin-right: 20px;
+  right: 700px;
+  top: -5px;
+}
+
+.linkedin a:hover{
+  top:0px;
+}
+
+.github img{
+  position:relative;
+  margin-left: -50px;
+  right: 600px;
+  top:-2px;
+}
+
+.github a:hover{
+  top:0px;
+}
+
+.inglese{
+  position:relative;
+  margin-left: -10px;
+  margin-right: -30px;
+  right: 100px;
+  top: -2px;
+}
+
+.Home{
+  margin-left: 250px;
+}
+
+
+.cosa-faccio{
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+
+.header-container{
+
+  height: 580px;
+  width: 100%;
+  background-image: url(foto1.jpg);
+  opacity: 10px;
+
+}
+
+.mionome {
+  padding-top: 100px;
+  text-align:center;
+  font-size: 70px;
+  font-style: normal;
+  text-transform: full-width;
+  color: black;
+  font-family: Helvetica;
+}
+
+h3{
+  color: black;
+  font-size: 35px;
+  padding-top: 50px;
+  margin-left: 470px;
+}
+
+.form-row button {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 230px;
+  margin-left: 550px;
+
+
+  color: black;
+  background-color: inherit;
+  opacity: 10;
+  border: 2px solid white;
+  border-radius: 5px;
+
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+h4{
+  z-index: 1;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+
+
+
+.header2-container{
+  height: 600px;
+  background-color: white;
+
+  box-shadow: 80px 80px 200px 8px #bdbdbd inset;
+  -webkit box-shadow: 40px 40px 100px 8px #e0e0e0 inset;
+  -moz-box-shadow: 40px 40px 100px 8px #e0e0e0 inset;
+}
+
+.footer-container{
+  height: 400px;
+  background-color: white;
+
+  box-shadow: 60px 60px 100px 4px #bdbdbd inset;
+  -webkit box-shadow: 40px 40px 100px 8px #e0e0e0 inset;
+  -moz-box-shadow: 40px 40px 100px 8px #e0e0e0 inset;
+}
+
+.footer-copyright{
+  height: 10px;
+  background-color: inherit;
+}
+
+.fotoaboutme img{
+  height: 60px;
+  width: 60px;
+
+  margin-left: 300px;
+  margin-top: 130px;
+
+}
+
+
+.fotoeducazione img{
+  height: 60px;
+  width: 60px;
+
+  top: 130px;
+  left: 450px;
+}
+
+
+.fotolavoro img{
+  height: 60px;
+  width: 60px;
+
+  top:90px;
+  left: 600px;
+}
+
+.testoeducazione h4{
+  padding-top: 250px;
+  margin-left: 750px;
+  top: 250px;
+  right: -300px;
+  z-index: 0;
+
+}
+
+.testoaboutme h4{
+  position:relative;
+  padding-bottom: 650px;
+  margin-left: 200px;
+  top: -70px;
+  z-index: 0;
+
+}
+
+
+.testolavoro{
+  padding-top: 200px;
+  margin-left: 400px;
+  left: 300px;
+
+}
+
+
+a:hover{
+  position: relative;
+  top: -5px;
+}
+
+a {
+  color:black;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+.form-row a{
+  color:black;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  scroll-behavior: smooth;
+
+}
+.form-row a:hover{
+  position:relative;
+  top: 0px;
+  z-index: 10px;
+}
+
+.footer-copyright{
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.confucio h2{
+  margin-left: -120px;
+}
+
+@media only screen and (max-width: 600px){
+
+body{
+  font-size: 100%;
+}
+
+.menu-container {
+    max-width: 100%;
+    position: fixed;
+  }
+.menu{
+  font-size: 1.9rem;
+  margin-left: 50px;
+  max-width: 100%;
+}
+
+.Home{
+  font-size: 1em;
+  margin-left: 15px;
+  display: none;
+}
+
+.cosa-faccio{
+  font-size: 0,9em;
+  margin-left: 15px;
+  margin-right: 18px;
+  display: none;
+}
+
+.header-container{
+  max-width: 100%;
+  height: 400px;
+  position: relative;
+
+  background-image: url(foto1.jpg);
+  background-size: 170%;
+  background-position: 50%;
+  opacity: 10px;
+}
+
+img{
+  max-width: 2em;
+  float: none;
+}
+
+h1{
+  font-size: 0.9em;
+  font-family: sans-serif;
+  text-align: center;
+  margin: none;
+  padding: none;
+  display: flex;
+}
+
+h3{
+  font-size: 120%;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-align: center;
+  padding: none;
+  margin: none;
+
+
+}
+
+.header2-container{
+  width: 100%;
+  height: 700px;
+}
+
+.fotoaboutme img{
+  max width: 100%;
+  height: 100%;
+  font-size: 2em;
+  position:relative;
+  align-items: center;
+
+  margin-left: 160px;
+  margin-top: 50px;
+
+}
+
+.testoaboutme h4{
+  position:relative;
+  padding-bottom: 650px;
+  margin-left: 50px;
+  margin-top: -500px;
+  z-index: 0;
+
+}
+
+.fotoeducazione img{
+  height: 100%;
+  width: 100%;
+  font-size: 2em;
+
+  top: 250px;
+  margin-left: -300px;
+}
+
+.testoeducazione h4{
+  max-width: 100%;
+  height: 100%;
+  padding-top: 250px;
+  margin-left: 20px;
+  margin-bottom: 200px;
+  text-align: justify;
+  z-index: 0;
+
+}
+
+
+.fotolavoro img{
+  max-width: 100%;
+  height: 100%;
+
+  top:90px;
+  margin-left: -450px;
+}
+
+.testolavoro{
+  padding-top: 150px;
+  margin-left: 30px;
+
+}
+.footer-container{
+    height: 700px;
+    background-color: white;
+
+    box-shadow: 60px 60px 100px 4px #bdbdbd inset;
+    -webkit box-shadow: 40px 40px 100px 8px #e0e0e0 inset;
+    -moz-box-shadow: 40px 40px 100px 8px #e0e0e0 inset;
+
+}
+  .confucio h2{
+    max-width: 100%;
+      margin-left: -20px;
+      text-align: justify;
+    }
+
+button{
+  display: none;
+}
+
+p{
+  font-size: 60%;
+  text-align: center;
+
+}
+
+.email img{
+  position: relative;
+  margin-right: 40px;
+  right: -400px;
+}
+
+.linkedin img{
+  position:relative;
+  margin-right: 40px;
+  right: 200px;
+}
+
+.github img{
+  position:relative;
+  margin-left: -200px;
+  right: -10px;
+}
